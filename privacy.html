@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi Dompetku</title>
+<meta name="description" content="Kebijakan privasi aplikasi Android Dompetku.">
+<style>
+  :root { --ink:#16181d; --muted:#5b616e; --bg:#fafaf7; --line:#e6e6df; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#f1f2ee; --muted:#a9aeb8; --bg:#111317; --line:#2a2e35; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:30px; line-height:1.2; margin:0 0 4px; }
+  h2 { font-size:20px; margin:32px 0 8px; }
+  .meta { color:var(--muted); margin:0 0 24px; }
+  hr { border:0; border-top:1px solid var(--line); margin:40px 0; }
+  code { font-size:14px; }
+  a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Dompetku</a></p>
+  <h1>Kebijakan Privasi Dompetku</h1>
+  <p class="meta">Berlaku sejak 25 November 2026</p>
+
+  <p>Dompetku adalah aplikasi pencatat keuangan pribadi untuk Android. Halaman ini menjelaskan
+  data apa yang diproses aplikasi, di mana data itu disimpan, dan bagaimana kamu mengendalikannya.</p>
+
+  <h2>1. Data yang dicatat</h2>
+  <p>Data yang kamu masukkan sendiri: dompet dan saldonya, transaksi (pemasukan, pengeluaran,
+  transfer), penyesuaian saldo, rencana anggaran dan amplop, tagihan dan cicilan, serta piutang
+  (termasuk nama orang yang kamu tulis). Aplikasi juga menyimpan pengaturan seperti tema dan jam
+  pengingat.</p>
+
+  <h2>2. Di mana data disimpan</h2>
+  <p>Semua data tersimpan di database lokal di HP-mu. Dompetku tidak punya server, tidak
+  membutuhkan akun Dompetku, dan tidak memuat iklan, analitik, atau pelacak pihak ketiga.
+  Pengingat adalah notifikasi lokal yang dijadwalkan di HP.</p>
+
+  <h2>3. Cadangan Google Drive (opsional)</h2>
+  <p>Fitur ini mati sampai kamu menekan <strong>Hubungkan Google</strong> di Pengaturan. Bila
+  diaktifkan:</p>
+  <ul>
+    <li>Aplikasi meminta satu izin saja, <code>drive.file</code>: aplikasi hanya dapat membuat,
+        membaca, mengubah, dan menghapus file yang dibuatnya sendiri. Aplikasi tidak dapat melihat
+        file lain di Google Drive-mu.</li>
+    <li>Aplikasi mengunggah salinan cadangan datamu (file JSON) ke folder <em>Dompetku</em> di
+        Google Drive milikmu, dan dapat menulis spreadsheet <em>Dompetku</em> berisi data yang sama
+        untuk kamu baca. Aplikasi menyimpan 30 cadangan terbaru dan menghapus yang lebih lama.</li>
+    <li>Data dikirim langsung dari HP-mu ke Google melalui koneksi terenkripsi. Data itu tidak
+        dikirim ke pihak lain dan tidak disimpan di server mana pun selain akun Google-mu.</li>
+    <li>Aplikasi hanya membaca file cadangan itu saat kamu memilih
+        <strong>Pulihkan dari Google Drive</strong>.</li>
+    <li>Alamat email akun Google disimpan di HP hanya untuk ditampilkan di Pengaturan.</li>
+  </ul>
+  <p>Penggunaan dan pemindahan informasi yang diterima dari Google API oleh Dompetku mematuhi
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+  User Data Policy</a>, termasuk persyaratan Limited Use.</p>
+
+  <h2>4. Berbagi data</h2>
+  <p>Dompetku tidak menjual, menyewakan, atau membagikan datamu kepada siapa pun. Data hanya
+  meninggalkan HP bila kamu sendiri mengekspor atau membagikan file cadangan, atau mengaktifkan
+  cadangan Google Drive ke akunmu sendiri.</p>
+
+  <h2>5. Mengendalikan dan menghapus data</h2>
+  <ul>
+    <li><strong>Data di HP:</strong> menghapus aplikasi menghapus seluruh datanya dari HP.</li>
+    <li><strong>Menghentikan cadangan:</strong> Pengaturan → <em>Putuskan Google Drive</em>
+        menghentikan unggahan dan mencabut izin aplikasi. Izin juga dapat dicabut di
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li><strong>File di Google Drive:</strong> folder <em>Dompetku</em> dan isinya milikmu dan
+        dapat kamu hapus kapan saja dari Google Drive.</li>
+  </ul>
+
+  <h2>6. Perubahan kebijakan</h2>
+  <p>Bila kebijakan ini berubah, tanggal berlaku di atas diperbarui.</p>
+
+  <h2>7. Kontak</h2>
+  <p>Pertanyaan tentang privasi: <a href="mailto:EMAIL_KONTAK">EMAIL_KONTAK</a></p>
+
+  <hr>
+
+  <h2>Summary in English</h2>
+  <p>Dompetku is a personal finance app for Android. All data stays in a local database on the
+  device; there is no Dompetku server, account, advertising or analytics. If the user turns on
+  the optional Google Drive backup, the app requests only the <code>drive.file</code> scope and
+  uploads backup files (and a read-only spreadsheet copy) to a <em>Dompetku</em> folder in the
+  user's own Drive. It cannot see any other Drive files, does not share data with anyone, and
+  reads the backups back only when the user chooses to restore. Dompetku's use and transfer of
+  information received from Google APIs adheres to the Google API Services User Data Policy,
+  including the Limited Use requirements. Users can revoke access in the app or at
+  myaccount.google.com/permissions and delete the files from Drive at any time.
+  Contact: <a href="mailto:EMAIL_KONTAK">EMAIL_KONTAK</a></p>
+</main>
+</body>
+</html>

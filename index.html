@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dompetku</title>
+<meta name="description" content="Dompetku: pencatat keuangan pribadi offline untuk Android.">
+<style>
+  :root { --ink:#16181d; --muted:#5b616e; --bg:#fafaf7; --lime:#c6f432; --card:#ffffff; --line:#e6e6df; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#f1f2ee; --muted:#a9aeb8; --bg:#111317; --card:#1a1d22; --line:#2a2e35; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px 64px; }
+  .mark { display:inline-block; background:var(--lime); color:#16181d; font-weight:800;
+          padding:4px 12px; border-radius:999px; font-size:14px; }
+  h1 { font-size:36px; line-height:1.15; margin:16px 0 8px; }
+  p.lead { color:var(--muted); font-size:18px; margin:0 0 32px; }
+  ul { padding-left:20px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:20px 24px; margin:24px 0; }
+  a { color:inherit; }
+  footer { color:var(--muted); font-size:14px; margin-top:40px; }
+</style>
+</head>
+<body>
+<main>
+  <span class="mark">Dompetku</span>
+  <h1>Pencatat keuangan pribadi yang tetap jalan tanpa internet.</h1>
+  <p class="lead">Aplikasi Android untuk mencatat pemasukan dan pengeluaran dengan cepat,
+  mencocokkan saldo dengan uang sebenarnya, dan menghitung kuota belanja harian sampai gajian.</p>
+
+  <div class="card">
+    <ul>
+      <li>Semua data tersimpan di HP. Tanpa akun dan tanpa server Dompetku.</li>
+      <li>Dompet tunai, rekening, dan tabungan; tagihan, cicilan, dan piutang.</li>
+      <li>Opsional: cadangan otomatis ke Google Drive milikmu sendiri. Aplikasi hanya
+          bisa mengakses file yang dibuatnya sendiri.</li>
+    </ul>
+  </div>
+
+  <p><a href="privacy.html">Kebijakan Privasi</a></p>
+
+  <footer>Dompetku adalah aplikasi pribadi, tidak dijual dan tidak memuat iklan.</footer>
+</main>
+</body>
+</html>
